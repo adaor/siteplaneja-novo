@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciarouth Personal Parfum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container ciarouth-container">
+        <img src="img/logo2-ciarouth.webp" alt="Logotipo Ciarouth Personal Parfum" class="logo">
+        <h1 class="company-name">Ciarouth Personal Parfum</h1>
+        <p class="tagline">Crie sua assinatura olfativa única. Perfumes personalizados que contam sua história.</p>
+
+        <div class="contact-form-container">
+            <h2>Seu Perfume. Sua Essência.</h2>
+            <p>Descubra como ter um perfume exclusivo, feito sob medida para você ou para presentear.</p>
+            <form action="https://formspree.io/f/xovdzkdy" method="POST" class="contact-form">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="Nome" required>
+
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="Email" required>
+
+                <label for="telefone">Telefone (WhatsApp):</label>
+                <input type="tel" id="telefone" name="Telefone">
+
+                <label for="interesse">Seu Interesse (ex: Perfume Pessoal, Presente, Consultoria):</label>
+                <textarea id="interesse" name="Interesse" rows="4"></textarea>
+
+                <input type="hidden" name="_subject" value="Novo Contato - Ciarouth Personal Parfum">
+                <button type="submit">Quero Meu Perfume Único!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
